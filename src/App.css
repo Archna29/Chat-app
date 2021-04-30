@@ -2,3 +2,20 @@
 *{
     font-family: 'Orelega One', cursive;
 }
+img{
+    display: block;
+    margin:20px;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#signuploginButton{
+margin:auto;
+display:block;
+margin-top:25px;
+width:280px;
+font-size:23px;
+color:red;
+background-color: white;;
+}

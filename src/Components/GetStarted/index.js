@@ -1,6 +1,7 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
+// import SignButton from '../../SignButton';
 //import doticon from './circles-menu-1.json';
+import {NavLink} from 'react-router-dom';
 import './style.css';
 const FirstPage=() =>{
     return (
