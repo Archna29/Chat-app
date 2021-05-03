@@ -18,10 +18,12 @@ const[password,setPassword]=useState('');
         />
         <form id="Loginlayout">
         <div className="form-group">
-          <input type="Email" id="exampleInputEmail1" className="form" placeholder="Email" onChange={(e)=>setEmail(e.target.value)}/>
+          <input type="Email" id="exampleInputEmail1" className="form" placeholder="Email" value={email} 
+          onChange={(e)=>setEmail(e.target.value)}/>
         </div>
         <div className="form-group">
-          <input type="password" id="exampleInputPassword1" className="form" placeholder="Password" onChange={(e)=>setPassword(e.target.value)}/>
+          <input type="password" id="exampleInputPassword1" className="form" placeholder="Password" value={password} 
+          onChange={(e)=>setPassword(e.target.value)}/>
         </div>
 <button type="button" className="btn " id="signuploginButton">Login</button>
         </form>   
